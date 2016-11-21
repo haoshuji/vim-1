@@ -118,7 +118,7 @@ let php_parent_error_open=1
 let g:netrw_liststyle=3
 
 " Set color scheme
-colors solarized
+colors codeschool 
 
 " If using GVIM/MacVim
 if has("gui_running")
