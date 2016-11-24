@@ -15,3 +15,4 @@ source ~/.vim/abbr.vim
 source ~/.vim/keybindings.vim
 
 call CheckForUpgrade()
+nnoremap <silent> <C-b> :!clear;python %<CR>

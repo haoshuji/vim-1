@@ -40,9 +40,6 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
-[submodule "bundle/ultisnips"]
-	path = bundle/ultisnips
-	url = git://github.com/SirVer/ultisnips.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
@@ -52,3 +49,6 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/YCM"]
+	path = bundle/YCM
+	url = https://github.com/Valloric/YouCompleteMe
