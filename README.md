@@ -19,6 +19,10 @@ Use the following code to grep the repo and symlink it.
 
 ```bash
 $ git clone --recursive https://github.com/haoshuji/vim-1.git  ~/.vim && ln -fs ~/.vim/vimrc ~/.vimrc
+$ cd ~/.vim/bundle/YCM/ 
+$ git submodule update --init --recursive
+$ sudo apt-get install build-essential cmake
+$ ./install.py --clang-completer
 ```
 
 ### Long version
